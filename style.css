@@ -1,0 +1,148 @@
+.body-container {
+    background-color: #dff9fb;
+}
+
+h2,
+h5 {
+    padding-left: 40px;
+}
+
+.background-container ul {
+    padding-left: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: #fab1a0;
+}
+
+.button-mat {
+    padding-left: 150px;
+}
+
+.btn {
+    padding: 18px;
+    width: 300px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #fab1a0;
+    transform: scale(1.1);
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.iframe-cor {
+    border-radius: 10px;
+}
+
+.row {
+    padding-left: 70px;
+    margin-right: 0;
+}
+
+.desc {
+    text-align: center;
+}
+
+.row1 {
+    margin: 0rem;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: #f1f1f1;
+}
+
+.card a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    background-color: #fab1a0;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:700px) {
+    .row {
+        margin: 0rem;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column1 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        border-radius: 10px;
+        text-align: justify;
+        background-color: #f1f1f1;
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+
+}
+
+.review {
+    width: 95vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+.inner-div {
+    background-color: #fab1a0;
+    padding: 40px;
+}
+
+#text {
+    border-radius: 10px;
+}

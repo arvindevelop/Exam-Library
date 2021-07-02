@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.menubar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.left-side {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.right-side {
+    overflow: hidden;
+    background-color: grey;
+    justify-content: right;
+}
+
+.right-side a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.right-side a:hover {
+    background-color: rgb(95, 92, 92);
+    color: grey;
+}
+
+.right-side .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .right-side a {
+        display: none;
+    }
+
+    .right-side a.icon {
+        float: right;
+        display: block;
+    }
+
+    .right-side.responsive {
+        position: relative;
+    }
+
+    .right-side.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .right-side.responsive a {
+        float: none;
+        display: flex;
+        text-align: left;
+    }
+}
+
+.head-container {
+    background-color: blueviolet;
+    padding: 80px;
+}
+.header{
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+    font-family:cursive;
+    color:white;
+}
+.intro{
+    background-color: aquamarine;
+    padding:30px;
+    margin: 50px 200px 30px 200px;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:600px) {
+    .intro{
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    font-size: medium;
+    }
+    
+}
+#introduction{
+    font-size: large;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: azure;
+    background-color: rgb(54, 4, 102);
+    
+}
+
+.footer1 a {
+    text-decoration: none;
+}
