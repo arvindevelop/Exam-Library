@@ -1,23 +1,59 @@
-.body-container {
+/* for any anchor */
+a {
+    text-decoration: none;
+}
+
+/* for whole body background color */
+
+body {
     background-color: #dff9fb;
 }
 
-h2,
-h5 {
+/* for each topic heading and its subtopic */
+
+h2,h5 {
     padding-left: 40px;
 }
+@media screen and (max-width:700px){
+    h2,h5{
+        padding-left: 5%;
+    }
+}
 
+/* for ul of  main portion of body */
 .background-container ul {
     padding-left: 90px;
 }
 
-a {
-    text-decoration: none;
-    color: #fab1a0;
+/* for instruction and intro */
+.intro{
+    background-color: aquamarine;
+    padding:30px;
+    margin: 50px 200px 30px 200px;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:600px) {
+    .intro{
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    font-size: medium;
+    }
+    
+}
+#introduction{
+    font-size: large;
 }
 
-.button-mat {
+/* for button */
+.button-container {
     padding-left: 150px;
+}
+
+@media screen and (max-width:700px){
+    .button-container{
+        padding-left: 20px;
+    }
 }
 
 .btn {
@@ -33,61 +69,6 @@ a {
     transform: scale(1.1);
 }
 
-.column {
-    float: left;
-    width: 50%;
-
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.iframe-cor {
-    border-radius: 10px;
-}
-
-.row {
-    padding-left: 70px;
-    margin-right: 0;
-}
-
-.desc {
-    text-align: center;
-}
-
-.row1 {
-    margin: 0rem;
-}
-
-.row1:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column1 {
-    float: left;
-    width: 33.33%;
-    padding: 0 10px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    border-radius: 10px;
-    text-align: justify;
-    background-color: #f1f1f1;
-}
-
-.card a {
-    text-decoration: none;
-    text-align: center;
-}
-
 .btn1 {
     margin-left: 50px;
     margin-right: 50px;
@@ -99,50 +80,31 @@ a {
     transform: scale(1.1);
 }
 
-@media screen and (max-width:700px) {
-    .row {
-        margin: 0rem;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .column1 {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 16px;
-        border-radius: 10px;
-        text-align: justify;
-        background-color: #f1f1f1;
-    }
-
-    .card a {
-        text-decoration: none;
-    }
-
+/* for all iframe */
+.video{
+    margin-left: 10%;
 }
-
-.review {
-    width: 95vw;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-
-}
-
-.inner-div {
-    background-color: #fab1a0;
-    padding: 40px;
-}
-
-#text {
+.iframe-cont {
     border-radius: 10px;
 }
+@media screen and (max-width:700px) {
+    .iframe-cont{
+        width:auto;
+        height:300px;
+        flex: auto;
+    }
+    .video{
+        margin-left: 5%;
+    }
+}
+.description{
+    padding-right: 17%;
+}
+
+/* for video and e-book description */
+
+.card a {
+    text-align: center;
+}
+
+
