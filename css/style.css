@@ -1,0 +1,110 @@
+/* for any anchor */
+a {
+    text-decoration: none;
+}
+
+/* for whole body background color */
+
+body {
+    background-color: #dff9fb;
+}
+
+/* for each topic heading and its subtopic */
+
+h2,h5 {
+    padding-left: 40px;
+}
+@media screen and (max-width:700px){
+    h2,h5{
+        padding-left: 5%;
+    }
+}
+
+/* for ul of  main portion of body */
+.background-container ul {
+    padding-left: 90px;
+}
+
+/* for instruction and intro */
+.intro{
+    background-color: aquamarine;
+    padding:30px;
+    margin: 50px 200px 30px 200px;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:600px) {
+    .intro{
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    font-size: medium;
+    }
+    
+}
+#introduction{
+    font-size: large;
+}
+
+/* for button */
+.button-container {
+    padding-left: 150px;
+}
+
+@media screen and (max-width:700px){
+    .button-container{
+        padding-left: 20px;
+    }
+}
+
+.btn {
+    padding: 18px;
+    width: 300px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #fab1a0;
+    transform: scale(1.1);
+}
+
+.btn1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    background-color: #fab1a0;
+    transform: scale(1.1);
+}
+
+/* for all iframe */
+.video{
+    margin-left: 10%;
+}
+.iframe-cont {
+    border-radius: 10px;
+}
+@media screen and (max-width:700px) {
+    .iframe-cont{
+        width:auto;
+        height:300px;
+        flex: auto;
+    }
+    .video{
+        margin-left: 5%;
+    }
+}
+.description{
+    padding-right: 17%;
+}
+
+/* for video and e-book description */
+
+.card a {
+    text-align: center;
+}
+
+
