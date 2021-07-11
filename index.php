@@ -47,7 +47,7 @@
                 <img src="photo/logo.svg" width="90px" height="50px">
             </div>
             <div class="right-side" id="myTopnav">
-                <a href="index.html">HOME</a>
+                <a href="index.php">HOME</a>
                 <a href="#contents">CONTENTS</a>
                 <a href="about_me.html">ABOUT ME</a>
                 <a href="#">USERS</a>
@@ -57,8 +57,19 @@
                     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
                     {
                         $name = $_SESSION['first_name'];
-                        echo "<a href='user.html?id=".$_SESSION["first_name"]."'> $name </a>";
-                    
+                        //echo "<a href='user.php?id=".$_SESSION["first_name"]."'> $name </a>";
+                        ?>
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <?php echo "<a href='user.php?id=".$_SESSION["first_name"]."'> $name </a>"; ?>
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                        </div>
+                        <?php
                     }
                     else
                     {
@@ -118,42 +129,42 @@
         <div class="row">
             <div class="column1">
                 <div class="card">
-                    <a href="english.html"><img src="photo/humanities_pic.jpg" width="100%" alt="humanities"></a>
-                    <p style="text-align: center;"><a href="english.html">Learn English</a></p>
+                    <a href="english.php"><img src="photo/humanities_pic.jpg" width="100%" alt="humanities"></a>
+                    <p style="text-align: center;"><a href="english.php">Learn English</a></p>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <a href="maths.html"><img src="photo/mathematics-subje.jpg" width="100%" alt="math"></a>
-                    <p style="text-align: center;"><a href="maths.html">Mathematics</a></p>
+                    <a href="maths.php"><img src="photo/mathematics-subje.jpg" width="100%" alt="math"></a>
+                    <p style="text-align: center;"><a href="maths.php">Mathematics</a></p>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <a href="physics.html"><img src="photo/physi.png" width="100%" alt="physics"></a>
-                    <p style="text-align: center;"><a href="physics.html">Physics</a></p>
+                    <a href="physics.php"><img src="photo/physi.png" width="100%" alt="physics"></a>
+                    <p style="text-align: center;"><a href="physics.php">Physics</a></p>
                 </div>
             </div>
             <div><br>
                 <div class="row">
                     <div class="column1">
                         <div class="card">
-                            <a href="environment.html"><img src="photo/season.jpeg" width="100%" alt="environment"></a>
-                            <p style="text-align: center;"><a href="environment.html">Environmental Science</a></p>
+                            <a href="environment.php"><img src="photo/season.jpeg" width="100%" alt="environment"></a>
+                            <p style="text-align: center;"><a href="environment.php">Environmental Science</a></p>
                         </div>
                     </div>
                     <div class="column1">
                         <div class="card">
-                            <a href="computer.html"><img src="photo/computer_photo.jpeg" width="100%"
+                            <a href="computer.php"><img src="photo/computer_photo.jpeg" width="100%"
                                     alt="computer"></a>
-                            <p style="text-align: center;"><a href="computer.html">Computer Science</a></p>
+                            <p style="text-align: center;"><a href="computer.php">Computer Science</a></p>
                         </div>
                     </div>
                     <div class="column1">
                         <div class="card">
-                            <a href="electrical.html"><img src="photo/electical_photo.jpg" width="100%"
+                            <a href="electrical.php"><img src="photo/electical_photo.jpg" width="100%"
                                     alt="electrical"></a>
-                            <p style="text-align: center;"><a href="electrical.html">Electrical</a></p>
+                            <p style="text-align: center;"><a href="electrical.php">Electrical</a></p>
                         </div>
                     </div>
                 </div>
@@ -181,6 +192,9 @@
                     }
                 }
             </script>
+            <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
             <!--end-->
 </body>
 
