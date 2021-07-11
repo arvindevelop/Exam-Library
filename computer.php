@@ -43,45 +43,33 @@
         <div class="tutorial" id="tutorial">
             <div class="header2">
                 <h2 class="tutor">Tutorial</h2><br>
-                <h5>Basics Of English Grammar and Phonetics</h5>
+                <h5>Programming and DSA</h5>
             </div><br>
             <div class="button-container">
-                <a href="https://www.javatpoint.com/antonyms" class="btn  btn-lg active " role="button"
-                    aria-pressed="true">Antonyms</a>
-                <a href="https://www.javatpoint.com/synonyms" class="btn btn-warning btn-lg active " role="button"
-                    aria-pressed="true">Synonyms</a>
-                <a href="https://byjus.com/govt-exams/list-one-word-substitution-pdf/"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">One Word Sustitution</a>
-                <a href="https://byjus.com/govt-exams/idioms-and-phrases/" class="btn btn-warning btn-lg active "
-                    role="button" aria-pressed="true">Idioms and Phrases</a>
-                <a href="https://academicguides.waldenu.edu/writingcenter/grammar/articles"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Articles</a>
-                <a href="https://www.examfear.com/notes/English/Grammar/Preposition/2485/Introduction.htm"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Prepositions</a>
-                <a href="https://www.sscadda.com/subject-verb-agreement-study-notes-rules-and-example"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Subject verb
-                    and Agreement</a>
-                <a href="https://www.lingualbox.com/blog/the-basics-of-english-phonetics-every-english-learner-must-know"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Phonetics</a>
+                <a href="https://www.geeksforgeeks.org/data-structures/?ref=shm" class="btn  btn-lg active " role="button"
+                    aria-pressed="true">Data Structure</a>
+                <a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">Algorithm</a>
+                <a href="https://www.geeksforgeeks.org/c-programming-language/" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">C Programming</a>
+                <a href="https://www.geeksforgeeks.org/c-plus-plus/?ref=shm" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">C++</a>
+                <a href="https://www.geeksforgeeks.org/java/?ref=shm" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">JAVA</a>
+                <a href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">Python</a>
             </div>
         </div><br>
         <div class="header2">
-            <h5>Writing through Practical purposes</h5>
+            <h5>Fundamentals</h5>
         </div><br>
         <div class="button-container">
-            <a href="https://alg.manifoldapp.org/read/film-appreciation/section/2a69a38b-dfac-4dd1-91f5-e52f768efbd0"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Film
-                Appreciation</a>
-            <a href="https://www.slideshare.net/RajeshNair240/poetry-appreciation"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Poetry
-                Appreciation</a>
-            <a href="https://www.aplustopper.com/formal-letter/" class="btn btn-warning btn-lg active " role="button"
-                aria-pressed="true">Letter Writing</a>
-            <a href="https://www.time4writing.com/writing-resources/paragraph-writing-secrets/"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Paragraph
-                Writing</a>
-            <a href="https://www.unigo.com/get-to-college/college-prep/9-steps-for-writing-a-great-essay"
-                class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Essay Writing</a>
+            <a href="https://www.tutorialspoint.com/computer_fundamentals/index.htm"
+                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Computer</a>
+            <a href="https://www.studytonight.com/operating-system/introduction-operating-systems"
+                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Operating System</a>
+                <a href="https://www.ibm.com/in-en/cloud/learn/networking-a-complete-guide"
+                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Networking</a>
         </div>
     </div><br>
     <!--Tutorial end-->
@@ -95,45 +83,23 @@
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/XYuKQCF7lJs"></iframe>
+                        src="https://www.youtube.com/embed/PyqV5xmca2U"></iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>Effective Communication Skills</h5>
+                    <h5>Computer System</h5>
                 </div>
 
             </div>
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/n6F5icYGnSg"></iframe>
+                        src="https://www.youtube.com/embed/zOjov-2OZ0E"></iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>7 C's of Communication</h5>
+                    <h5>Introduction to programming</h5>
                 </div>
             </div>
         </div><br>
-        <div class="row">
-            <div class="column text-center">
-                <div class="video">
-                    <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/t5b20oLaIaw">
-                    </iframe>
-                </div>
-                <div class="description text-center">
-                    <h5>Wings of Fire</h5>
-                </div>
-            </div>
-            <div class="column text-center">
-                <div class="video">
-                    <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/26q1YxF5mvs">
-                    </iframe>
-                </div>
-                <div class="description text-center">
-                    <h5>Kanthapura</h5>
-                </div>
-            </div>
-        </div>
     </div>
     <!--video Tutorial end-->
 
@@ -161,25 +127,22 @@
             <div class="column1">
                 <div class="card">
                     <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
-                    <a href="https://drive.google.com/file/d/17wErKQIBZvp41gzQBzmyplv_YW3Uew_t/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://drive.google.com/file/d/1hUA8TUm_a0gwac8fvKWMC8V7Ril6VlIj/view?usp=sharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">C Programming</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
-                    <a href="https://drive.google.com/file/d/1pN3XjZgYacJ0ZzAjRQIxnUhPxPh5hrzN/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://drive.google.com/file/d/1TUqXango-YjrEmI8xDeZEP0DIxBbzAte/view?usp=sharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Data Structure</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
-                    <a href="https://drive.google.com/file/d/1L3FEvxhnxDWt221YpuV11xROe3dX70d5/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://drive.google.com/file/d/1CN3jR_xN9LpLljpa9wBjtbYI9rOC2vMm/view?usp=sharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Python</a>
                 </div>
             </div>
         </div>

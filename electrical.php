@@ -43,47 +43,35 @@
         <div class="tutorial" id="tutorial">
             <div class="header2">
                 <h2 class="tutor">Tutorial</h2><br>
-                <h5>Basics Of English Grammar and Phonetics</h5>
+                <h5>Electrical Circuits</h5>
             </div><br>
             <div class="button-container">
-                <a href="https://www.javatpoint.com/antonyms" class="btn  btn-lg active " role="button"
-                    aria-pressed="true">Antonyms</a>
-                <a href="https://www.javatpoint.com/synonyms" class="btn btn-warning btn-lg active " role="button"
-                    aria-pressed="true">Synonyms</a>
-                <a href="https://byjus.com/govt-exams/list-one-word-substitution-pdf/"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">One Word Sustitution</a>
-                <a href="https://byjus.com/govt-exams/idioms-and-phrases/" class="btn btn-warning btn-lg active "
-                    role="button" aria-pressed="true">Idioms and Phrases</a>
-                <a href="https://academicguides.waldenu.edu/writingcenter/grammar/articles"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Articles</a>
-                <a href="https://www.examfear.com/notes/English/Grammar/Preposition/2485/Introduction.htm"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Prepositions</a>
-                <a href="https://www.sscadda.com/subject-verb-agreement-study-notes-rules-and-example"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Subject verb
-                    and Agreement</a>
-                <a href="https://www.lingualbox.com/blog/the-basics-of-english-phonetics-every-english-learner-must-know"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Phonetics</a>
+                <a href="https://www.electronicshub.org/basic-electrical-circuits-componentstypes/" class="btn  btn-lg active " role="button"
+                    aria-pressed="true">Basic Electrical Circuits</a>
+                    <a href="https://www.electronicshub.org/tutorials/" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">Basic Electronics</a>    
+                <a href="https://www.tutorialspoint.com/network_theory/network_theory_overview.htm" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">Network Theory</a>
+                <a href="https://www.tutorialspoint.com/network_theory/network_theory_active_elements.htm"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Active Elements</a>
+                <a href="https://www.tutorialspoint.com/network_theory/network_theory_passive_elements.htm" class="btn btn-warning btn-lg active "
+                    role="button" aria-pressed="true">Passive Elements</a>
+                <a href="https://www.elprocus.com/basics-of-network-theorems-in-electrical-engineering/"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Circuits Theorem</a>
+                <a href="https://www.engineeringenotes.com/electrical-engineering/circuits/single-phase-ac-circuit-with-diagram-electrical-engineering/27590"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Single Phase A.C.</a>
+                <a href="https://www.electricaltechnology.org/2013/09/single-phase-three-phase-ac-circuits.html"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">3-Phase A.C.</a>
+                <a href="https://www.tutorialspoint.com/electronic_measuring_instruments/electronic_measuring_instruments_introduction.htm"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Measuring Instrument</a>
+                <a href="https://www.windings.com/technical-reference/basic-motor-design-tutorial/"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Electric Motors</a>
+                <a href="https://circuitglobe.com/power-system.html"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Power System</a>
+                <a href="https://www.mepits.com/tutorial/303/instrumentation/sensors"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Sensor</a>
             </div>
         </div><br>
-        <div class="header2">
-            <h5>Writing through Practical purposes</h5>
-        </div><br>
-        <div class="button-container">
-            <a href="https://alg.manifoldapp.org/read/film-appreciation/section/2a69a38b-dfac-4dd1-91f5-e52f768efbd0"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Film
-                Appreciation</a>
-            <a href="https://www.slideshare.net/RajeshNair240/poetry-appreciation"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Poetry
-                Appreciation</a>
-            <a href="https://www.aplustopper.com/formal-letter/" class="btn btn-warning btn-lg active " role="button"
-                aria-pressed="true">Letter Writing</a>
-            <a href="https://www.time4writing.com/writing-resources/paragraph-writing-secrets/"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Paragraph
-                Writing</a>
-            <a href="https://www.unigo.com/get-to-college/college-prep/9-steps-for-writing-a-great-essay"
-                class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Essay Writing</a>
-        </div>
-    </div><br>
     <!--Tutorial end-->
 
     <!--Video Tutorial-->
@@ -95,45 +83,24 @@
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/XYuKQCF7lJs"></iframe>
+                        src="https://www.youtube.com/embed/AmTVG4ReW0A"></iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>Effective Communication Skills</h5>
+                    <h5>Power System</h5>
                 </div>
 
             </div>
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/n6F5icYGnSg"></iframe>
+                        src="https://www.youtube.com/embed/sCTgZv33tuA"></iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>7 C's of Communication</h5>
+                    <h5>Sensor</h5>
                 </div>
             </div>
         </div><br>
-        <div class="row">
-            <div class="column text-center">
-                <div class="video">
-                    <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/t5b20oLaIaw">
-                    </iframe>
-                </div>
-                <div class="description text-center">
-                    <h5>Wings of Fire</h5>
-                </div>
-            </div>
-            <div class="column text-center">
-                <div class="video">
-                    <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/26q1YxF5mvs">
-                    </iframe>
-                </div>
-                <div class="description text-center">
-                    <h5>Kanthapura</h5>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!--video Tutorial end-->
 
@@ -159,25 +126,8 @@
             <div class="column1">
                 <div class="card">
                     <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
-                    <a href="https://drive.google.com/file/d/17wErKQIBZvp41gzQBzmyplv_YW3Uew_t/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
-                </div>
-            </div>
-            <div class="column1">
-                <div class="card">
-                    <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
-                    <a href="https://drive.google.com/file/d/1pN3XjZgYacJ0ZzAjRQIxnUhPxPh5hrzN/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
-                </div>
-            </div>
-            <div class="column1">
-                <div class="card">
-                    <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
-                    <a href="https://drive.google.com/file/d/1L3FEvxhnxDWt221YpuV11xROe3dX70d5/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1HmoZe3d8zWJdfvEIWEMkUBqGSdwXid0J%2Fview%3Fusp%3Dsharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Electrical circuit</a>
                 </div>
             </div>
         </div>

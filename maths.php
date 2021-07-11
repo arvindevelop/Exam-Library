@@ -43,46 +43,26 @@
         <div class="tutorial" id="tutorial">
             <div class="header2">
                 <h2 class="tutor">Tutorial</h2><br>
-                <h5>Basics Of English Grammar and Phonetics</h5>
             </div><br>
             <div class="button-container">
-                <a href="https://www.javatpoint.com/antonyms" class="btn  btn-lg active " role="button"
-                    aria-pressed="true">Antonyms</a>
-                <a href="https://www.javatpoint.com/synonyms" class="btn btn-warning btn-lg active " role="button"
-                    aria-pressed="true">Synonyms</a>
-                <a href="https://byjus.com/govt-exams/list-one-word-substitution-pdf/"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">One Word Sustitution</a>
-                <a href="https://byjus.com/govt-exams/idioms-and-phrases/" class="btn btn-warning btn-lg active "
-                    role="button" aria-pressed="true">Idioms and Phrases</a>
-                <a href="https://academicguides.waldenu.edu/writingcenter/grammar/articles"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Articles</a>
-                <a href="https://www.examfear.com/notes/English/Grammar/Preposition/2485/Introduction.htm"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Prepositions</a>
-                <a href="https://www.sscadda.com/subject-verb-agreement-study-notes-rules-and-example"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Subject verb
-                    and Agreement</a>
-                <a href="https://www.lingualbox.com/blog/the-basics-of-english-phonetics-every-english-learner-must-know"
-                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Phonetics</a>
+                <a href="https://stattrek.com/tutorials/matrix-algebra-tutorial.aspx" class="btn  btn-lg active " role="button"
+                    aria-pressed="true">Matrix Algebra</a>
+                <a href="https://tutorial.math.lamar.edu/classes/de/de.aspx" class="btn btn-warning btn-lg active " role="button"
+                    aria-pressed="true">Differential Equation</a>
+                <a href="https://tutorial.math.lamar.edu/Classes/DE/IntroPDE.aspx"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Partial Differential equation</a>
+                <a href="https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx" class="btn btn-warning btn-lg active "
+                    role="button" aria-pressed="true">Calculus</a>
+                <a href="https://www.tutorialspoint.com/signals_and_systems/laplace_transforms.htm"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Laplace Transform</a>
+                <a href="https://www.tutorialspoint.com/signals_and_systems/fourier_series.htm"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Fourier series</a>
+                <a href="http://sites.science.oregonstate.edu/math/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/vcalc.html"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Vector calculus</a>
+                <a href="https://intellipaat.com/blog/tutorial/statistics-and-probability-tutorial/introduction/"
+                    class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Probability</a>
             </div>
         </div><br>
-        <div class="header2">
-            <h5>Writing through Practical purposes</h5>
-        </div><br>
-        <div class="button-container">
-            <a href="https://alg.manifoldapp.org/read/film-appreciation/section/2a69a38b-dfac-4dd1-91f5-e52f768efbd0"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Film
-                Appreciation</a>
-            <a href="https://www.slideshare.net/RajeshNair240/poetry-appreciation"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Poetry
-                Appreciation</a>
-            <a href="https://www.aplustopper.com/formal-letter/" class="btn btn-warning btn-lg active " role="button"
-                aria-pressed="true">Letter Writing</a>
-            <a href="https://www.time4writing.com/writing-resources/paragraph-writing-secrets/"
-                class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Paragraph
-                Writing</a>
-            <a href="https://www.unigo.com/get-to-college/college-prep/9-steps-for-writing-a-great-essay"
-                class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Essay Writing</a>
-        </div>
     </div><br>
     <!--Tutorial end-->
 
@@ -95,20 +75,20 @@
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/XYuKQCF7lJs"></iframe>
+                        src="https://www.youtube.com/embed/cEnepfaSIf4"></iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>Effective Communication Skills</h5>
+                    <h5>Probabilty</h5>
                 </div>
 
             </div>
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/n6F5icYGnSg"></iframe>
+                        src="https://www.youtube.com/embed/ma1QmE1SH3I"></iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>7 C's of Communication</h5>
+                    <h5>Vector Calculus</h5>
                 </div>
             </div>
         </div><br>
@@ -116,21 +96,21 @@
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/t5b20oLaIaw">
+                        src="https://www.youtube.com/embed/oFVcO8OBm58">
                     </iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>Wings of Fire</h5>
+                    <h5>Introduction to Numerical Analysis</h5>
                 </div>
             </div>
             <div class="column text-center">
                 <div class="video">
                     <iframe class="iframe-cont" width="500px" height="400px"
-                        src="https://www.youtube.com/embed/26q1YxF5mvs">
+                        src="https://www.youtube.com/embed/McOc6OUC7Pc">
                     </iframe>
                 </div>
                 <div class="description text-center">
-                    <h5>Kanthapura</h5>
+                    <h5>Differetial Equation</h5>
                 </div>
             </div>
         </div>
