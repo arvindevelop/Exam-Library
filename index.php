@@ -57,19 +57,7 @@
                     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
                     {
                         $name = $_SESSION['first_name'];
-                        //echo "<a href='user.php?id=".$_SESSION["first_name"]."'> $name </a>";
-                        ?>
-                        <div class="dropdown show">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <?php echo "<a href='user.php?id=".$_SESSION["first_name"]."'> $name </a>"; ?>
-                            </a>
-
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                            </div>
-                        </div>
-                        <?php
+                        echo "<a href='user.php?id=".$_SESSION["first_name"]."'> $name </a>";
                     }
                     else
                     {
