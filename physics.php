@@ -45,7 +45,7 @@
                 <h2 class="tutor">Tutorial</h2><br>
             </div><br>
             <div class="button-container">
-                <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.2012.0340" class="btn  btn-lg active " role="button"
+                <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.2012.0340" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Theory of Relativity</a>
                 <a href="https://www.data-connect.com/fiber_tutorial.htm" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Fibre optics</a>
@@ -142,25 +142,22 @@
             <div class="column1">
                 <div class="card">
                     <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
-                    <a href="https://drive.google.com/file/d/17wErKQIBZvp41gzQBzmyplv_YW3Uew_t/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="#"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Laser</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
-                    <a href="https://drive.google.com/file/d/1pN3XjZgYacJ0ZzAjRQIxnUhPxPh5hrzN/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="#"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Fibre Optics</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
-                    <a href="https://drive.google.com/file/d/1L3FEvxhnxDWt221YpuV11xROe3dX70d5/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="#"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Engineering Physics</a>
                 </div>
             </div>
         </div>

@@ -7,8 +7,13 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/join.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Home</title>
     <style>
+        body
+        {
+            background-color:white;
+        }
         .photo {
             width: 100%;
             height: 600px;
@@ -35,6 +40,10 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+        .btn1
+        {
+            margin-top:5%;
+        }
     </style>
 </head>
 
@@ -47,10 +56,10 @@
                 <img src="photo/logo.svg" width="90px" height="50px">
             </div>
             <div class="right-side" id="myTopnav">
-                <a href="index.php"><b>Home</b></a>
-                <a href="#contents"><b>Contents</b></a>
-                <a href="about.php"><b>About us</b></a>
-                <a href="user.php"><b>Users</b></a>
+                <a href="index.php">HOME</a>
+                <a href="#contents">CONTENTS</a>
+                <a href="about.php">ABOUT US</a>
+                <a href="user.php">USERS</a>
                     <?php
                     session_start();
 
@@ -58,12 +67,12 @@
                     {
                         $name = $_SESSION['first_name'];
                         //echo "<a href='user.php?id=".$_SESSION["first_name"]."'><b> $name </b></a>";
-                        echo "<a href='#'><b> $name </b></a>";
+                        echo "<a href='#'> $name </a>";
                     }
                     else
                     {
                         ?>
-                        <a href="register.php"><b>LOGIN/SIGN UP</b></a>
+                        <a href="register.php">LOGIN/SIGN UP</a>
                     <?php
                     }
                     ?>
@@ -119,19 +128,24 @@
             <div class="column1">
                 <div class="card">
                     <a href="english.php"><img src="photo/humanities_pic.jpg" width="100%" alt="humanities"></a>
-                    <p style="text-align: center;"><a href="english.php">Learn English</a></p>
+                    <a href="english.php"
+                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">English</a>
+                    
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <a href="maths.php"><img src="photo/mathematics-subje.jpg" width="100%" alt="math"></a>
-                    <p style="text-align: center;"><a href="maths.php">Mathematics</a></p>
+                    <a href="maths.php"
+                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Mathematics</a>
+                    
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <a href="physics.php"><img src="photo/physi.png" width="100%" alt="physics"></a>
-                    <p style="text-align: center;"><a href="physics.php">Physics</a></p>
+                    <a href="physics.php"
+                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Physics</a>
                 </div>
             </div>
             <div><br>
@@ -139,21 +153,26 @@
                     <div class="column1">
                         <div class="card">
                             <a href="environment.php"><img src="photo/season.jpeg" width="100%" alt="environment"></a>
-                            <p style="text-align: center;"><a href="environment.php">Environmental Science</a></p>
+                            <a href="environment.php"
+                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Environmental Science</a>
                         </div>
                     </div>
                     <div class="column1">
                         <div class="card">
                             <a href="computer.php"><img src="photo/computer_photo.jpeg" width="100%"
                                     alt="computer"></a>
-                            <p style="text-align: center;"><a href="computer.php">Computer Science</a></p>
+                                    <a href="computer.php"
+                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Computer Science</a>
+                    
                         </div>
                     </div>
                     <div class="column1">
                         <div class="card">
                             <a href="electrical.php"><img src="photo/electical_photo.jpg" width="100%"
                                     alt="electrical"></a>
-                            <p style="text-align: center;"><a href="electrical.php">Electrical</a></p>
+                                    <a href="electrical.php"
+                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Electrical</a>
+                    
                         </div>
                     </div>
                 </div>

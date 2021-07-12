@@ -46,7 +46,7 @@
                 <h5>Electrical Circuits</h5>
             </div><br>
             <div class="button-container">
-                <a href="https://www.electronicshub.org/basic-electrical-circuits-componentstypes/" class="btn  btn-lg active " role="button"
+                <a href="https://www.electronicshub.org/basic-electrical-circuits-componentstypes/" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Basic Electrical Circuits</a>
                     <a href="https://www.electronicshub.org/tutorials/" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Basic Electronics</a>    
@@ -112,7 +112,7 @@
         </div><br>
         <div class="button-container">
             <a href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1HmoZe3d8zWJdfvEIWEMkUBqGSdwXid0J%2Fview%3Fusp%3Dsharing"
-            class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Fundamental of elecrical circuit</a>
+            class="btn btn-warning btn-lg active " role="button" aria-pressed="true">Elecrical circuit</a>
         </div>
     </div><br>
     <!--Notes-end-->
@@ -128,6 +128,20 @@
                     <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
                     <a href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1HmoZe3d8zWJdfvEIWEMkUBqGSdwXid0J%2Fview%3Fusp%3Dsharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Electrical circuit</a>
+                </div>
+            </div>
+            <div class="column1">
+                <div class="card">
+                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <a href="#"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Motor</a>
+                </div>
+            </div>
+            <div class="column1">
+                <div class="card">
+                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <a href="#"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Sensor</a>
                 </div>
             </div>
         </div>

@@ -46,7 +46,7 @@
                 <h5>Basics Of English Grammar and Phonetics</h5>
             </div><br>
             <div class="button-container">
-                <a href="https://www.javatpoint.com/antonyms" class="btn  btn-lg active " role="button"
+                <a href="https://www.javatpoint.com/antonyms" class="btn  btn-warning btn-lg active " role="button"
                     aria-pressed="true">Antonyms</a>
                 <a href="https://www.javatpoint.com/synonyms" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Synonyms</a>

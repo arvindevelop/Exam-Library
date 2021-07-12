@@ -45,7 +45,7 @@
                 <h2 class="tutor">Tutorial</h2><br>
             </div><br>
             <div class="button-container">
-                <a href="https://stattrek.com/tutorials/matrix-algebra-tutorial.aspx" class="btn  btn-lg active " role="button"
+                <a href="https://stattrek.com/tutorials/matrix-algebra-tutorial.aspx" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Matrix Algebra</a>
                 <a href="https://tutorial.math.lamar.edu/classes/de/de.aspx" class="btn btn-warning btn-lg active " role="button"
                     aria-pressed="true">Differential Equation</a>
@@ -168,25 +168,22 @@
             <div class="column1">
                 <div class="card">
                     <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
-                    <a href="https://drive.google.com/file/d/17wErKQIBZvp41gzQBzmyplv_YW3Uew_t/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://drive.google.com/file/d/1hkIslmq4JjJiiQBhj5kgkw62LL9Xke7i/view?usp=sharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Vector</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
-                    <a href="https://drive.google.com/file/d/1pN3XjZgYacJ0ZzAjRQIxnUhPxPh5hrzN/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://drive.google.com/file/d/1YBd5Q5qbq5F58yZZL1xDSv7_biv5Y2Da/view?usp=sharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Numerical Analysis</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
                     <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
-                    <a href="https://drive.google.com/file/d/1L3FEvxhnxDWt221YpuV11xROe3dX70d5/view?usp=sharing"
-                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Add to
-                        Library</a>
+                    <a href="https://drive.google.com/file/d/1ZqRmM6aN_R-ZB_9OgJSoj4QGHBoZBkut/view?usp=sharing"
+                        class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Probability</a>
                 </div>
             </div>
         </div>

@@ -19,6 +19,11 @@
             text-align: center;
             color: red;
         }
+        .about
+        {
+            background-color:#f1f1f1;
+            padding:7%;
+        }
 
         img {
             display: block;
@@ -30,10 +35,16 @@
         .intro {
             text-align: center;
         }
+        .intro a
+        {
+            text-decoration:none;
+        }
     </style>
 </head>
 
 <body>
+
+    <!--navbar-->
     <div id="nav">
         <nav class="menubar">
             <div class="left-side">
@@ -66,27 +77,42 @@
             </div>
         </nav>
     </div>
-    <header class="whole_body">
+    <!--navbar end-->
+
+    <!--About-->
+    <div class="about">
+            <h1>Exam Library</h1>
+            <p id="introduction">Exam Library is established to provide the first-year student with the right guidance by Arvind Kumar Singh in 2021. 
+                The contents are prepared in a manner that if anyone uses these materials they
+                completely prepared for the exam, they will get all material which is required for preparation.
+                It is prepared based on the engineering educational curriculum. Anyone wanted to contribute can contribute at 
+                <a href=" https://github.com/arvindevelop" style="text-decoration:none;">our project.</a>
+            </p>
+    </div>
+    <!--About end-->
+
+    <!--intro container-->
+    <div class="intro-container">
         <div class="head">
             <br>
-            <h1 style="font-family: 'Times New Roman', Times, serif;">FOUNDER</h1><br>
+            <h1 style="font-family: 'Times New Roman', Times, serif;color:black;">Founder</h2><br>
         </div>
         <div class="image">
 
             <img src="photo/My_photo.jpg" alt="my_photo" width="300px" height="300px"><br>
         </div>
         <div class="intro">
-            <p>Arvind Kumar Singh<br>
+            <p><b>Arvind Kumar Singh</b><br>
             Email : arvindevelop@gmail.com<br>
-            <a style="text-decoration: none;" href="https://github.com/arvindevelop">Github</a>
-                <br>
-            <a style="text-decoration: none;"
-                    href="https://www.linkedin.com/in/arvind-kumar-singh-641439201/">LinkedIn</a>
+            <a href="https://github.com/arvindevelop">Github</a><br>
+            <a href="https://www.linkedin.com/in/arvind-kumar-singh-641439201/">LinkedIn</a><br>
+            <a href="https://twitter.com/arvindk36055950">Twitter</a><br>
             </p><br>
-            <!--<p>I am pursuing B.Tech
-                in<br> Computer Science and Engineering from<br> National Institute of Technology, Sikkim.</p>-->
         </div>
-    </header>
+     </div>
+     <!--into container end-->
+
+     <!--footer-->
     <footer style=" 
 
     bottom:0;
@@ -98,6 +124,8 @@
     ">
         <p style="margin-top: 20px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
     </footer>
+    <!--footer end-->
+
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
