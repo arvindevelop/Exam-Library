@@ -66,7 +66,6 @@
                     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
                     {
                         $name = $_SESSION['first_name'];
-                        //echo "<a href='user.php?id=".$_SESSION["first_name"]."'><b> $name </b></a>";
                         echo "<a href='#'> $name </a>";
                     }
                     else

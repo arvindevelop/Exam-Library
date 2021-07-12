@@ -125,21 +125,21 @@
         <div class="row">
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/electric_circuit.jpg" width="100%" alt="humanities"><br>
                     <a href="https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1HmoZe3d8zWJdfvEIWEMkUBqGSdwXid0J%2Fview%3Fusp%3Dsharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Electrical circuit</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/motor.jpg" width="100%" alt="humanities"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Motor</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/sensor.jpg" width="100%" alt="humanities"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Sensor</a>
                 </div>

@@ -56,7 +56,6 @@
                 <a href="index.php"><b>Home</b></a>
                 <a href="about.php"><b>About us</b></a>
                 <a href="user.php"><b>Users</b></a>
-                <a href="#"><b>Support us</b></a>
                     <?php
                     session_start();
 

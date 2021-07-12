@@ -126,21 +126,21 @@
         <div class="row">
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/c_program.jpg" width="100%" alt="humanities"><br>
                     <a href="https://drive.google.com/file/d/1hUA8TUm_a0gwac8fvKWMC8V7Ril6VlIj/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">C Programming</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
+                    <img src="photo/dsa.jpg" width="100%" alt="math"><br>
                     <a href="https://drive.google.com/file/d/1TUqXango-YjrEmI8xDeZEP0DIxBbzAte/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Data Structure</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
+                    <img src="photo/python.jpg" width="100%" alt="physics"><br>
                     <a href="https://drive.google.com/file/d/1CN3jR_xN9LpLljpa9wBjtbYI9rOC2vMm/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Python</a>
                 </div>

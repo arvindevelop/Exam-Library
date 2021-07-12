@@ -141,21 +141,21 @@
         <div class="row">
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/environmental_science.jpg" width="100%" alt="humanities"><br>
                     <a href="https://drive.google.com/file/d/1lQk09CLHaNcgdbw9WsRsUOO3UAN_xJkG/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Environmental Science</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
+                    <img src="photo/pollution.jpg" width="100%" alt="math"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Pollution</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
+                    <img src="photo/biodiversity.jpg" width="100%" alt="physics"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Biodiversity</a>
                 </div>

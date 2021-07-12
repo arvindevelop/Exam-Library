@@ -167,21 +167,21 @@
         <div class="row">
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/vector.jpg" width="100%" alt="humanities"><br>
                     <a href="https://drive.google.com/file/d/1hkIslmq4JjJiiQBhj5kgkw62LL9Xke7i/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Vector</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
+                    <img src="photo/numerical_analysis.jpg" width="100%" alt="math"><br>
                     <a href="https://drive.google.com/file/d/1YBd5Q5qbq5F58yZZL1xDSv7_biv5Y2Da/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Numerical Analysis</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
+                    <img src="photo/probabilty.jpg" width="100%" alt="physics"><br>
                     <a href="https://drive.google.com/file/d/1ZqRmM6aN_R-ZB_9OgJSoj4QGHBoZBkut/view?usp=sharing"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Probability</a>
                 </div>

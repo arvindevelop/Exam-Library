@@ -141,21 +141,21 @@
         <div class="row">
             <div class="column1">
                 <div class="card">
-                    <img src="photo/wings_of_fire.jpg" width="100%" alt="humanities"><br>
+                    <img src="photo/laser.jpg" width="100%" alt="humanities"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Laser</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/kanthapura.jpg" width="100%" alt="math"><br>
+                    <img src="photo/fibre_optics.jpg" width="100%" alt="math"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Fibre Optics</a>
                 </div>
             </div>
             <div class="column1">
                 <div class="card">
-                    <img src="photo/oxford_grammar.jpg" width="100%" alt="physics"><br>
+                    <img src="photo/engineering_physics.jpg" width="100%" alt="physics"><br>
                     <a href="#"
                         class="btn1 btn-warning btn-lg active " role="button" aria-pressed="true">Engineering Physics</a>
                 </div>
