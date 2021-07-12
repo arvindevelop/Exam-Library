@@ -67,6 +67,7 @@
                     $last_name=$_POST['last_name'];
                     $email=$_POST['email'];
                     $password=$_POST['password'];
+                    $college=$_POST['college'];
                     $sql = "SELECT email FROM registeration";
                     $result = mysqli_query($conn,$sql);
                     if(!$result)
@@ -87,7 +88,7 @@
                     }
                     else
                     {
-                        $sql="insert into registeration(first_name,last_name,email,password) values('{$first_name}','{$last_name}','{$email}','{$password}')";
+                        $sql="insert into registeration(first_name,last_name,email,password,college) values('{$first_name}','{$last_name}','{$email}','{$password}','{$college}')";
                         $result=mysqli_query($conn,$sql);
                         if($result){
                             echo "<script> alert('Congrats, you registered successfully!');
@@ -102,7 +103,7 @@
                 <input type="text" class="input-field" placeholder="Last Name" name="last_name" required>
                 <input type="email" class="input-field" placeholder="Email Id" name="email" required>
                 <input type="password" class="input-field" placeholder="Enter password" name="password" required>
-                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <input type="text" class="input-field" placeholder="Enter College Name" name="college" required>
                 <button type="submit" class="submit-btn" name="submit">Register</button>
             </form>
         </div>

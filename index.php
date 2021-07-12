@@ -47,22 +47,23 @@
                 <img src="photo/logo.svg" width="90px" height="50px">
             </div>
             <div class="right-side" id="myTopnav">
-                <a href="index.php">HOME</a>
-                <a href="#contents">CONTENTS</a>
-                <a href="about_me.html">ABOUT ME</a>
-                <a href="#">USERS</a>
+                <a href="index.php"><b>Home</b></a>
+                <a href="#contents"><b>Contents</b></a>
+                <a href="about.php"><b>About us</b></a>
+                <a href="user.php"><b>Users</b></a>
                     <?php
                     session_start();
 
                     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
                     {
                         $name = $_SESSION['first_name'];
-                        echo "<a href='user.php?id=".$_SESSION["first_name"]."'> $name </a>";
+                        //echo "<a href='user.php?id=".$_SESSION["first_name"]."'><b> $name </b></a>";
+                        echo "<a href='#'><b> $name </b></a>";
                     }
                     else
                     {
                         ?>
-                        <a href="register.php">LOGIN/SIGN UP</a>
+                        <a href="register.php"><b>LOGIN/SIGN UP</b></a>
                     <?php
                     }
                     ?>
@@ -160,13 +161,17 @@
             <!--Subject Contents end-->
 
             <!--Footer-->
-            <div class="footer">
-                <div class="footer1"><a style="color: white;" href="about_me.html">About me</a><br>
-                    <a style="color: white;" href="https://github.com/arvindevelop">Contact</a><br>
-                    <a style="color: white;" href="https://www.quora.com/">Help</a>
-                </div><br>
-                <p>&copy 2021 Exam Library</p>
-            </div>
+            <footer style="
+                left:0;
+                position: relative;
+                width:100%;   
+                background:#000;
+                color: wheat;
+                text-align: center;
+                margin-top:5%;
+                ">
+                    <p style="margin-top: 10px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
+            </footer>
             <!--Footer end-->
 
             <!--For bar in small screen-->

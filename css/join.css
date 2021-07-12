@@ -271,7 +271,7 @@ span
     text-align: center;
     color: azure;
     background-color: rgb(54, 4, 102);
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 .footer1 a {

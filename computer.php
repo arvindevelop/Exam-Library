@@ -152,13 +152,17 @@
     <!--Main part of web page end-->
 
     <!--Footer-->
-    <div class="footer">
-        <div class="footer1"><a style="color: white;" href="about_me.html">About me</a><br>
-            <a style="color: white;" href="https://github.com/arvindevelop">Contact</a><br>
-            <a style="color: white;" href="https://www.quora.com/">Help</a>
-        </div><br>
-        <p>&copy 2021 Exam Library</p>
-    </div>
+    <footer style=" 
+
+    bottom:0;
+    width:100%;
+    height:50px;   
+    background:#000;
+    color: wheat;
+    text-align: center;
+    ">
+        <p style="margin-top: 20px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
+    </footer>
     <!--Footer end-->
 
     <!--For bar in small screen-->
