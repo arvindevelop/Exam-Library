@@ -1,14 +1,15 @@
 <!--Footer-->
 <footer style=" 
-
+margin-top:10px;
 bottom:0;
 width:100%;
-height:50px;   
+height:10px;   
 background:#000;
 color: wheat;
 text-align: center;
+padding-bottom:4%;
 ">
-    <p style="margin-top: 20px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
+    <p style="padding-top:10px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
 </footer>
 <!--Footer end-->
 

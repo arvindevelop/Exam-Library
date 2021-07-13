@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<?php include 'header.php';?>
     <title>Mathematics</title>
-    <link rel="stylesheet" type="text/css" href="css/join.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
         .description {
             margin-left: 90px;
@@ -193,30 +187,7 @@
     <!--Main part of web page end-->
 
     <!--Footer-->
-    <footer style=" 
-
-    bottom:0;
-    width:100%;
-    height:50px;   
-    background:#000;
-    color: wheat;
-    text-align: center;
-    ">
-        <p style="margin-top: 20px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
-    </footer>
-    <!--Footer end-->
-
-    <!--For bar in small screen-->
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "right-side") {
-                x.className += " responsive";
-            } else {
-                x.className = "right-side";
-            }
-        }
-    </script>
+    <?php include 'footer.php';?>
     <!--end-->
 </body>
 
