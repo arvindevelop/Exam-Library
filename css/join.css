@@ -76,6 +76,13 @@
     }
 }
 
+/*subject list*/
+.sub-list a{
+    margin-right:20px;
+    font-size:16px;
+    font-weight:bold;
+}
+
 /* for header after navbar */
 .head-container {
     background-color: blueviolet;
@@ -88,6 +95,9 @@
     font-family:cursive;
     color:white;
 }
+
+/*for share button*/
+
 
 /* for card */
 

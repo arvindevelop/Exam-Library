@@ -1,22 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'header.php'?>
     <title>Users</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/join.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <style>
-      /*button{
-        transition: 1.5s;
-      }
-      button:hover{
-        background-color:#616C6F;
-        color: white;
-      }*/
       h2{
         font-size: 40px;
         }
@@ -53,16 +39,15 @@
                 <img src="photo/logo.svg" width="90px" height="50px">
             </div>
             <div class="right-side" id="myTopnav">
-                <a href="index.php"><b>Home</b></a>
-                <a href="about.php"><b>About us</b></a>
-                <a href="user.php"><b>Users</b></a>
+                <a href="index.php"><b>HOME</b></a>
+                <a href="about.php"><b>ABOUT US</b></a>
+                <a href="user.php"><b>USERS</b></a>
                     <?php
                     session_start();
 
                     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
                     {
                         $name = $_SESSION['first_name'];
-                        //echo "<a href='user.php?id=".$_SESSION["first_name"]."'><b> $name </b></a>";
                         echo "<a href='#'><b> $name </b></a>";
                     }
                     else

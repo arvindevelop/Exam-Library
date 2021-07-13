@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/join.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<?php include 'header.php';?>
     <title>Home</title>
     <style>
         body
         {
             background-color:white;
+        }
+        .right-side a
+        {
+            font-weight:bold;
+        }
+        .side
+        {
+            float: left;
+            margin-right:1%;
+        }
+        .side-right
+        {
+            padding-top:0.4%;
         }
         .photo {
             width: 100%;
@@ -52,7 +59,6 @@
     <div id="nav">
         <nav class="menubar">
             <div class="left-side">
-
                 <img src="photo/logo.svg" width="90px" height="50px">
             </div>
             <div class="right-side" id="myTopnav">
@@ -88,6 +94,34 @@
         <h1 class="header">EXAM LIBRARY</h1>
     </div>
     <!--Header end-->
+
+    <!--like button-->
+    <div style="padding-top:1%;padding-left:2%;">
+        <?php
+            include 'config.php';
+            $sql = "SELECT * from support where id=0";
+            $query = mysqli_query($conn,$sql);
+            $sql1 = mysqli_fetch_array($query);?>
+            <div class="side">
+            <form method="post">
+                <button type="submit" style="background-color : #3D85C6;color:white;padding-right:10px; width:100px;border-radius:5px;" name="like">
+                <img src="photo/thumbs-up-regular.svg" style="margin-bottom:3px;" width="50px" height="20px">Like</button>
+            </form></div><?php
+            if(!isset($_POST['like']))
+            {
+                ?><div class="side side-right"><?php
+                echo $sql1['like_me'] ." people like this" ;?></div><?php
+            }
+            else
+            {
+                $updatelike = $sql1['like_me'] + 1;
+                ?><div class="side side-right"><?php echo $updatelike ." people like this" ;?></div><?php
+                $sql = "UPDATE support set like_me=$updatelike where id=0";
+                mysqli_query($conn,$sql);
+            }
+        ?>
+    </div>
+    <!--like end-->
 
     <!--Intro photo-->
     <div class="intro-photo">
@@ -178,31 +212,7 @@
             </div><br>
             <!--Subject Contents end-->
 
-            <!--Footer-->
-            <footer style="
-                left:0;
-                position: relative;
-                width:100%;   
-                background:#000;
-                color: wheat;
-                text-align: center;
-                margin-top:5%;
-                ">
-                    <p style="margin-top: 10px;"> Copyright &copy <a style="text-decoration:none; color: orangered;" href="#">Exam-Library</a> All Rights Reserved | Contact Us: +91 7631353674</p>
-            </footer>
-            <!--Footer end-->
-
-            <!--For bar in small screen-->
-            <script>
-                function myFunction() {
-                    var x = document.getElementById("myTopnav");
-                    if (x.className === "right-side") {
-                        x.className += " responsive";
-                    } else {
-                        x.className = "right-side";
-                    }
-                }
-            </script>
+            <?php include 'footer.php';?>
             <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

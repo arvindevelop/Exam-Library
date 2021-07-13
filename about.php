@@ -52,9 +52,9 @@
                 <img src="photo/logo.svg" width="90px" height="50px">
             </div>
             <div class="right-side" id="myTopnav">
-                <a href="index.php"><b>Home</b></a>
-                <a href="about.php"><b>About us</b></a>
-                <a href="user.php"><b>Users</b></a>
+                <a href="index.php"><b>HOME</b></a>
+                <a href="about.php"><b>ABOUT US</b></a>
+                <a href="user.php"><b>USERS</b></a>
                     <?php
                     session_start();
 
