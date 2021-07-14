@@ -162,6 +162,13 @@
     }
 
 }
+
+/*for login and register*/
+body
+{
+  background-color: #fab1a0;
+}
+/*for login and register*/
 #login-form
 {
     margin-top: 70px;
@@ -172,9 +179,10 @@
     height: 480px;
     position: relative;
     margin: 2% auto;
-    background: rgba(0,0,0,0.3);
+    background: white;
     padding: 10px;
     overflow: hidden;
+    border-radius:10%;
 }
 .button-box
 {
@@ -209,14 +217,13 @@
     top: 150px;
     position: absolute;
     width: 280px;
-    transition: .5s;
+    
 }
 .input-group-register
 {
     top: 120px;
     position: absolute;
     width: 280px;
-    transition: .5s;
 }
 .input-field
 {
@@ -228,7 +235,6 @@
     border-right: 0;
     border-bottom: 1px solid #999;
     outline:none;
-    background: transparent;
 }
 .submit-btn
 {
@@ -237,6 +243,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
+    margin-top:10px;
     background:#F3C693;
     border: 0;
     outline: none;
@@ -244,13 +251,13 @@
 }
 .check-box
 {
-    margin: 30px 10px 34px 0;
+    margin: 30px 10px 34px;
 }
 span
 {
     color: #777;
     font-size: 12px;
-    bottom: 75px;
+    bottom: 35%;
     position: absolute;
 }
 #login
@@ -268,6 +275,6 @@ span
 }
 #register input
 {
-    color: white;
+    color: black;
     font-size: 15;
 }

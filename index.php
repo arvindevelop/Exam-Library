@@ -51,6 +51,10 @@
         {
             margin-top:5%;
         }
+        #contents
+        {
+            margin-bottom:30px;
+        }
     </style>
 </head>
 
@@ -104,7 +108,7 @@
             $sql1 = mysqli_fetch_array($query);?>
             <div class="side">
             <form method="post">
-                <button type="submit" style="background-color : #3D85C6;color:white;padding-right:10px; width:100px;border-radius:5px;" name="like">
+                <button type="submit" style="background-color : #3D85C6;color:white;padding-right:10px; padding-bottom:2px;padding-top:2px;width:100px;border-radius:5px;" name="like">
                 <img src="photo/thumbs-up-regular.svg" style="margin-bottom:3px;" width="50px" height="20px">Like</button>
             </form></div><?php
             if(!isset($_POST['like']))
@@ -181,39 +185,35 @@
                         class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Physics</a>
                 </div>
             </div>
-            <div><br>
-                <div class="row">
-                    <div class="column1">
-                        <div class="card">
-                            <a href="environment.php"><img src="photo/season.jpeg" width="100%" alt="environment"></a>
-                            <a href="environment.php"
-                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Environmental Science</a>
-                        </div>
-                    </div>
-                    <div class="column1">
-                        <div class="card">
-                            <a href="computer.php"><img src="photo/computer_photo.jpeg" width="100%"
-                                    alt="computer"></a>
-                                    <a href="computer.php"
-                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Computer Science</a>
-                    
-                        </div>
-                    </div>
-                    <div class="column1">
-                        <div class="card">
-                            <a href="electrical.php"><img src="photo/electical_photo.jpg" width="100%"
-                                    alt="electrical"></a>
-                                    <a href="electrical.php"
-                        class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Electrical</a>
-                    
-                        </div>
-                    </div>
+        </div><br>
+        <div class="row">
+            <div class="column1">
+                <div class="card">
+                    <a href="environment.php"><img src="photo/season.jpeg" width="100%" alt="environment"></a>
+                    <a href="environment.php"
+                    class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Environmental Science</a>
                 </div>
-            </div><br>
-            <!--Subject Contents end-->
+            </div>
+            <div class="column1">
+                <div class="card">
+                    <a href="computer.php"><img src="photo/computer_photo.jpeg" width="100%" alt="computer"></a>
+                    <a href="computer.php"
+                    class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Computer Science</a>
+                </div>
+            </div>
+            <div class="column1">
+                <div class="card">
+                    <a href="electrical.php"><img src="photo/electical_photo.jpg" width="100%" alt="electrical"></a>
+                    <a href="electrical.php"
+                    class="btn1 btn-warning btn-lg active" role="button" aria-pressed="true">Electrical</a>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <!--Subject Contents end-->
 
-            <?php include 'footer.php';?>
-            <!-- JavaScript Bundle with Popper -->
+    <?php include 'footer.php';?>
+    <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
             <!--end-->
