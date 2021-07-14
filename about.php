@@ -14,7 +14,10 @@
         * {
             font-family: 'Lexend Mega', sans-serif;
         }
-
+        body
+        {
+            background:white;
+        }
         .head {
             text-align: center;
             color: red;
