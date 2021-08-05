@@ -1,1 +1,1 @@
-<h1>Exam Library</h1>
+<h1 align="center">Exam Library</h1>
