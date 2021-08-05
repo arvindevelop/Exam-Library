@@ -5,4 +5,13 @@
   <li>Motivation</li>
 </ul>
 
-<p>After that subject link is provided, just click on any subject and then land on that subject material</p>
+<p>After that subject link is provided in form of card, just click on any subject and then land on that subject material</p>
+<h4 style="color:blue;">Currently following subjects material are provided</h4>
+<ul>
+  <li style="color:blue">English</li>
+  <li style="color:blue">Mathematics</li>
+  <li style="color:blue">Physics</li>
+  <li style="color:blue">Environmental Science</li>
+  <li style="color:blue">Computer Science</li>
+  <li style="color:blue">Electrical</li>
+</ul>
