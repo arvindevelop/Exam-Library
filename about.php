@@ -57,7 +57,7 @@
             <div class="right-side" id="myTopnav">
                 <a href="index.php"><b>HOME</b></a>
                 <a href="about.php"><b>ABOUT US</b></a>
-                <a href="user.php"><b>USERS</b></a>
+                <!--<a href="user.php"><b>USERS</b></a>-->
                     <?php
                     session_start();
 
