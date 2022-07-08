@@ -69,7 +69,7 @@
                 <a href="index.php">HOME</a>
                 <a href="#contents">CONTENTS</a>
                 <a href="about.php">ABOUT US</a>
-                <a href="user.php">USERS</a>
+                <!--<a href="user.php">USERS</a>-->
                     <?php
                     session_start();
 
