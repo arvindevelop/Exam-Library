@@ -102,27 +102,27 @@
     <!--like button-->
     <div style="padding-top:1%;padding-left:2%;">
         <?php
-            include 'config.php';
-            $sql = "SELECT * from support where id=0";
-            $query = mysqli_query($conn,$sql);
-            $sql1 = mysqli_fetch_array($query);?>
+            #include 'config.php';
+            #$sql = "SELECT * from support where id=0";
+            #$query = mysqli_query($conn,$sql);
+            #$sql1 = mysqli_fetch_array($query);?>
             <div class="side">
             <form method="post">
                 <button type="submit" style="background-color : #3D85C6;color:white;padding-right:10px; padding-bottom:2px;padding-top:2px;width:100px;border-radius:5px;" name="like">
                 <img src="photo/thumbs-up-regular.svg" style="margin-bottom:3px;" width="50px" height="20px">Like</button>
             </form></div><?php
-            if(!isset($_POST['like']))
-            {
-                ?><div class="side side-right"><?php
-                echo $sql1['like_me'] ." people like this" ;?></div><?php
-            }
-            else
-            {
-                $updatelike = $sql1['like_me'] + 1;
-                ?><div class="side side-right"><?php echo $updatelike ." people like this" ;?></div><?php
-                $sql = "UPDATE support set like_me=$updatelike where id=0";
-                mysqli_query($conn,$sql);
-            }
+            // if(!isset($_POST['like']))
+            // {
+            //     ?><div class="side side-right"><?php
+            //     echo $sql1['like_me'] ." people like this" ;?></div><?php
+            // }
+            // else
+            // {
+            //     $updatelike = $sql1['like_me'] + 1;
+            //     ?><div class="side side-right"><?php #echo $updatelike ." people like this" ;?></div><?php
+            //     $sql = "UPDATE support set like_me=$updatelike where id=0";
+            //     mysqli_query($conn,$sql);
+            // }
         ?>
     </div>
     <!--like end-->
