@@ -10,19 +10,19 @@
                 <a href="#notes">NOTES</a>
                 <a href="#e-book">E-BOOKS</a>
                 <?php
-                    session_start();
+                    // session_start();
 
-                    if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
-                    {
-                        $name = $_SESSION['first_name'];
-                        echo "<a href='#'> $name </a>";
-                    }
-                    else
-                    {
+                    // if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
+                    // {
+                    //     $name = $_SESSION['first_name'];
+                    //     echo "<a href='#'> $name </a>";
+                    // }
+                    // else
+                    // {
                         ?>
-                        <a href="register.php">LOGIN/SIGN UP</a>
+                        <!-- <a href="register.php">LOGIN/SIGN UP</a> -->
                     <?php
-                    }
+                    // }
                     ?>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>

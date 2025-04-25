@@ -68,22 +68,22 @@
             <div class="right-side" id="myTopnav">
                 <a href="index.php">HOME</a>
                 <a href="#contents">CONTENTS</a>
-                <a href="about.php">ABOUT US</a>
+                <!-- <a href="about.php">ABOUT US</a> -->
                 <!--<a href="user.php">USERS</a>-->
                     <?php
-                    session_start();
+                    // session_start();
 
-                    if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
-                    {
-                        $name = $_SESSION['first_name'];
-                        echo "<a href='#'> $name </a>";
-                    }
-                    else
-                    {
+                    // if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true')
+                    // {
+                    //     $name = $_SESSION['first_name'];
+                    //     echo "<a href='#'> $name </a>";
+                    // }
+                    // else
+                    // {
                         ?>
-                        <a href="register.php">LOGIN/SIGN UP</a>
+                        <!-- <a href="register.php">LOGIN/SIGN UP</a> -->
                     <?php
-                    }
+                    // }
                     ?>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -106,11 +106,12 @@
             #$sql = "SELECT * from support where id=0";
             #$query = mysqli_query($conn,$sql);
             #$sql1 = mysqli_fetch_array($query);?>
-            <div class="side">
+            <!-- <div class="side">
             <form method="post">
                 <button type="submit" style="background-color : #3D85C6;color:white;padding-right:10px; padding-bottom:2px;padding-top:2px;width:100px;border-radius:5px;" name="like">
                 <img src="photo/thumbs-up-regular.svg" style="margin-bottom:3px;" width="50px" height="20px">Like</button>
-            </form></div><?php
+            </form></div> -->
+            <?php 
             // if(!isset($_POST['like']))
             // {
             //     ?><div class="side side-right"><?php
